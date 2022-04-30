@@ -52,4 +52,4 @@ def api():
     
   return translated_content
     
-app.run(host="0.0.0.0", port=(int(os.environ.get("$PORT") or 3000)))
+app.run(host="0.0.0.0", port=(int(os.environ.get("PORT") or 3000)))
