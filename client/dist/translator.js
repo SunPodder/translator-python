@@ -41,7 +41,7 @@ module.exports = function(){return new Ajax()}
 },{}],2:[function(require,module,exports){
 const Ajax = require("./ajax.js")()
 
-window.translation_url = "https://translator-sunpodder.herokuapp.com"
+window.translation_url = "https://translator-sunpodder.herokuapp.com/translate"
 
 
 HTMLDocument.prototype.translate = function(...arguments){
